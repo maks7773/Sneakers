@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    font-family: 'Anonymous Pro', monospace;
+  }
+  .header{
+    background: white ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 400px 54px 400px;
+    align-items: center;
+  }
+  .header-content{
+    color:#000000;
+    text-decoration: none;
+  }
+  .header-links{
+    display: flex;
+    gap: 24px;
+    font-family: "Anonymous Pro";
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+list-style: none;
+ 
+text-decoration: none;
+  }
+  .header-links a{
+    color:#000000;
+  }
+  .header-line{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1161px;
+    height: 1px;  
+    justify-content: center;
+     align-items: center;
+     padding-top: 40px;
+     color: var(--text_gray, #A1A6B4);
+  }
+  .main{
+    font-family: 'Anonymous Pro', monospace;
+
+    min-height: 100vh;
+    background: #F1F1F1;
+  }
+  .title{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+    gap: 25px;
+    margin-left: 400px;
+  }
+  .catalog{
+    margin-top: 24px;
+    max-width: 1161px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+display: flex;
+ flex-wrap: wrap;
+ gap: 24px;
+  }
+  .sneaker{
+    border-radius: 12px 12px 12px 12px;
+     max-width: 371px;
+     background: white;
+  }
+  .card-image{
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+  }
+  .card-description{
+    padding: 32px 24px;
+
+  }
+  .card-title{
+    margin-bottom: 10px;
+    font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .card-text{
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .footer{
+    background: var(--black, #121723);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+height: 142px;
+ 
+  }
+ .footer-content{
+  display: flex;
+  justify-content: center;
+ align-items: start;
+   gap: 600px;
+   padding-top: 35px;
+ }
+  .footer-links {
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+font-family: "Anonymous Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .footer-links a{
+    color:white;
+  }
+   .footer-end{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+  .line{
+    display: flex;
+    padding-left: 360px;
+    width: 1161px;
+    height: 1px;  
+    
+  }
+  .footer-text{
+    display: flex;
+   font-family: 'Anonymous Pro', monospace;
+   color: var(--text_gray, #A1A6B4);
+    font-size: 16px;
+    padding-top: 18px;
+    justify-content: center;
+    padding-bottom: 21px;
+  }
+
+  
